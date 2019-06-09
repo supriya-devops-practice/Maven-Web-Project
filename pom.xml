@@ -79,6 +79,8 @@
 		</dependency>
   </dependencies>
 
+	<!-- just commenting line for updated code -->
+	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
