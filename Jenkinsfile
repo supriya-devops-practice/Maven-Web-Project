@@ -11,9 +11,7 @@ def mvnHOME = tool name : "Maven" , type : "maven"
  stage ('checkout code')
 {
        
- git credentialsId: '9b9aa26e-db8d-4ede-b0f4-17e4439d2c32', url: 'https://github.com/supriya-devops-practice/Maven-Web-
-
-Project.git'
+ git credentialsId: '9b9aa26e-db8d-4ede-b0f4-17e4439d2c32', url: 'https://github.com/supriya-devops-practice/Maven-Web-Project.git'
    
  }
    
